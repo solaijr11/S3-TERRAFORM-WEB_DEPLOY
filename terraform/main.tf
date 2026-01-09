@@ -1,11 +1,3 @@
-#old s3 bucket data
-terraform {
-#   backend "s3" {
-#     bucket = var.bucket_name
-#     key    = "static-site/terraform.tfstate"
-#     region = "ap-south-1"
-#   }
- }
 
 # create bucket
 resource "aws_s3_bucket" "web" {
